@@ -12,6 +12,10 @@ class AboutMeViewController: UIViewController {
     
     var person: Person!
     
+    @IBOutlet var imageLabel: UIImageView!
+    @IBOutlet var phoneLabel: UILabel!
+    @IBOutlet var emailLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
