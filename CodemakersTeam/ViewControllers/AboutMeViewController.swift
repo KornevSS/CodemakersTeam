@@ -9,7 +9,6 @@ import UIKit
 
 class AboutMeViewController: UIViewController {
 
-    
     var person: Person!
    
     @IBOutlet var personImageView: UIImageView!
@@ -23,7 +22,5 @@ class AboutMeViewController: UIViewController {
         personImageView?.layer.cornerRadius = 10
         personImageView?.image = image
     }
-
-
 }
 
