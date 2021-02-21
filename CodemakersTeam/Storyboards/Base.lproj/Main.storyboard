@@ -8,18 +8,18 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--About Me View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CodemakersTeam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="AboutMeViewController" customModule="CodemakersTeam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="HUg-2T-rC8"/>
+                    <tabBarItem key="tabBarItem" title="" image="person.fill" catalog="system" id="HUg-2T-rC8"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="443" y="-58"/>
@@ -76,33 +76,33 @@
             </objects>
             <point key="canvasLocation" x="-336" y="419"/>
         </scene>
-        <!--Item-->
+        <!--Info View Controller-->
         <scene sceneID="vCE-h8-Wtd">
             <objects>
-                <viewController id="P2O-No-dSX" sceneMemberID="viewController">
+                <viewController id="P2O-No-dSX" customClass="InfoViewController" customModule="CodemakersTeam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fr0-Jz-rfs">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="3uL-mt-vzh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Utg-Am-le7"/>
+                    <tabBarItem key="tabBarItem" title="" image="info.circle.fill" catalog="system" id="Utg-Am-le7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZS8-zc-L5l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="443" y="941"/>
         </scene>
-        <!--Item-->
+        <!--Hobby View Controller-->
         <scene sceneID="Zzg-CH-m4Z">
             <objects>
-                <viewController id="YNh-vL-ejo" sceneMemberID="viewController">
+                <viewController id="YNh-vL-ejo" customClass="HobbyViewController" customModule="CodemakersTeam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BHf-B4-1ac">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="YDF-L1-vTv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="z2z-Pd-n8w"/>
+                    <tabBarItem key="tabBarItem" title="" image="gamecontroller.fill" catalog="system" id="z2z-Pd-n8w"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YUS-J5-Y8u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -128,6 +128,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="gamecontroller.fill" catalog="system" width="128" height="80"/>
+        <image name="info.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
