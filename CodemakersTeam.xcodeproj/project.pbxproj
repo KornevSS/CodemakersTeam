@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5290FC9225E295E000C6FA38 /* ListUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290FC9125E295E000C6FA38 /* ListUserTableViewController.swift */; };
+		5290FC9525E2962000C6FA38 /* ListUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290FC9425E2962000C6FA38 /* ListUserCell.swift */; };
 		5342AF5825E2877A00F67E2C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5342AF5725E2877A00F67E2C /* DataManager.swift */; };
 		5342AF5D25E287AF00F67E2C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5342AF5C25E287AF00F67E2C /* Person.swift */; };
 		7C3BF4E425E04BFA0059220A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3BF4E325E04BFA0059220A /* AppDelegate.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5290FC9125E295E000C6FA38 /* ListUserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUserTableViewController.swift; sourceTree = "<group>"; };
+		5290FC9425E2962000C6FA38 /* ListUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUserCell.swift; sourceTree = "<group>"; };
 		5342AF5725E2877A00F67E2C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		5342AF5C25E287AF00F67E2C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		7C3BF4E025E04BFA0059220A /* CodemakersTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodemakersTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5290FC9725E2962C00C6FA38 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5290FC9425E2962000C6FA38 /* ListUserCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		5342AF5625E2874D00F67E2C /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +94,7 @@
 			children = (
 				5342AF5B25E2879600F67E2C /* Models */,
 				5342AF5625E2874D00F67E2C /* Services */,
+				5290FC9725E2962C00C6FA38 /* Cell */,
 				7C3BF4F825E04C750059220A /* ViewControllers */,
 				7C3BF4FB25E04CB60059220A /* Storyboards */,
 				7C3BF4FA25E04CAB0059220A /* SupportingFiles */,
@@ -96,6 +109,7 @@
 				7C3BF4E725E04BFA0059220A /* AboutMeViewController.swift */,
 				7C9B1BC125E2935D003343B9 /* HobbyViewController.swift */,
 				7C9B1BC425E293A0003343B9 /* InfoViewController.swift */,
+				5290FC9125E295E000C6FA38 /* ListUserTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -197,8 +211,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5290FC9525E2962000C6FA38 /* ListUserCell.swift in Sources */,
 				5342AF5D25E287AF00F67E2C /* Person.swift in Sources */,
 				7C3BF4E825E04BFA0059220A /* AboutMeViewController.swift in Sources */,
+				5290FC9225E295E000C6FA38 /* ListUserTableViewController.swift in Sources */,
 				5342AF5825E2877A00F67E2C /* DataManager.swift in Sources */,
 				7C9B1BC525E293A0003343B9 /* InfoViewController.swift in Sources */,
 				7C9B1BC225E2935D003343B9 /* HobbyViewController.swift in Sources */,
@@ -352,7 +368,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQYEDNAEEG;
-				INFOPLIST_FILE = CodemakersTeam/Info.plist;
+				INFOPLIST_FILE = CodemakersTeam/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -371,7 +387,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQYEDNAEEG;
-				INFOPLIST_FILE = CodemakersTeam/Info.plist;
+				INFOPLIST_FILE = CodemakersTeam/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
