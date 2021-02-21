@@ -17,10 +17,14 @@ class AboutMeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         guard let image = UIImage(named: person.photo) else { return }
         personImageView.contentMode = .scaleAspectFill
         personImageView?.layer.cornerRadius = 10
         personImageView?.image = image
+        
+        phoneLabel.text = person.phone
+        emailLabel.text = person.email
     }
 }
 
