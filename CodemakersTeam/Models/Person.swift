@@ -20,9 +20,9 @@ struct Person {
     let email: String
     let phone: String
     
-//    var fullName: String {
-//        "\\(name) \\(surname)"
-//        }
+    var fullName: String {
+        "\\(name) \\(surname)"
+    }
 }
 
 extension Person {
