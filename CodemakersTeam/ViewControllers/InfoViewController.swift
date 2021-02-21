@@ -9,20 +9,19 @@ import UIKit
 
 class InfoViewController: UIViewController {
 
+    @IBOutlet var PlaceLabel: UILabel!
+    @IBOutlet var statusLabel: UILabel!
+    @IBOutlet var ageLabel: UILabel!
+    @IBOutlet var jobLabel: UILabel!
+    @IBOutlet var positionLabel: UILabel!
+    @IBOutlet var malLabel: UILabel!
+    @IBOutlet var phoneLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
