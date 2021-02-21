@@ -9,20 +9,18 @@ import UIKit
 
 class HobbyViewController: UIViewController {
 
+    //MARK: - IB Outlets
+    @IBOutlet var hobbyTextView: UITextView!
+    
+    
+    // MARK: - Public properties
+    var person: Person!
+    
+    // MARK: - ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        hobbyTextView.text = person.hobby
+        hobbyTextView.layer.cornerRadius = hobbyTextView.frame.width / 50
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
