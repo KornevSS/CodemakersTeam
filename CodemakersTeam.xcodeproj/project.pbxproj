@@ -79,8 +79,8 @@
 				5342AF5B25E2879600F67E2C /* Models */,
 				5342AF5625E2874D00F67E2C /* Services */,
 				7C3BF4F825E04C750059220A /* ViewControllers */,
-				7C3BF4FA25E04CAB0059220A /* SupportingFiles */,
 				7C3BF4FB25E04CB60059220A /* Storyboards */,
+				7C3BF4FA25E04CAB0059220A /* SupportingFiles */,
 				7C3BF4FD25E04D090059220A /* Resources */,
 			);
 			path = CodemakersTeam;
