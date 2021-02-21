@@ -11,13 +11,17 @@ class AboutMeViewController: UIViewController {
 
     
     var person: Person!
-    
-    @IBOutlet var imageLabel: UIImageView!
+   
+    @IBOutlet var personImageView: UIImageView!
     @IBOutlet var phoneLabel: UILabel!
     @IBOutlet var emailLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        guard let image = UIImage(named: person.photo) else { return }
+        personImageView.contentMode = .scaleAspectFill
+        personImageView?.layer.cornerRadius = 10
+        personImageView?.image = image
     }
 
 

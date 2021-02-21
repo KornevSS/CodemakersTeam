@@ -96,7 +96,7 @@
                     <tabBarItem key="tabBarItem" title="" image="person.fill" catalog="system" id="HUg-2T-rC8"/>
                     <connections>
                         <outlet property="emailLabel" destination="S6Y-us-Lvz" id="6dS-5p-1h0"/>
-                        <outlet property="imageLabel" destination="A7Y-xn-vlS" id="e5N-bG-ZEV"/>
+                        <outlet property="personImageView" destination="A7Y-xn-vlS" id="Wtu-5A-Nu4"/>
                         <outlet property="phoneLabel" destination="gif-is-rBN" id="yMu-dL-6OB"/>
                     </connections>
                 </viewController>
