@@ -21,12 +21,12 @@ class AboutMeViewController: UIViewController {
     // MARK: - ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
+        phoneLabel.text = person.phone
+        emailLabel.text = person.email
         guard let image = UIImage(named: person.photo) else { return }
         personImageView.contentMode = .scaleAspectFill
         personImageView.layer.cornerRadius = personImageView.frame.width / 50
         personImageView?.image = image
-        phoneLabel.text = person.phone
-        emailLabel.text = person.email
     }
 }
 

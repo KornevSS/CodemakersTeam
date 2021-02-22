@@ -21,7 +21,7 @@ struct Person {
     let phone: String
     
     var fullName: String {
-        "\\(name) \\(surname)"
+        "\(name) \(surname)"
     }
 }
 
@@ -38,7 +38,7 @@ extension Person {
         let job = DataManager.shared.jobs
         let jobPosition = DataManager.shared.jobPositions
         let email = DataManager.shared.emails
-        let phone = DataManager.shared.photos
+        let phone = DataManager.shared.phones
         
         for index in 0..<names.count {
             let person = Person(name: names[index],
