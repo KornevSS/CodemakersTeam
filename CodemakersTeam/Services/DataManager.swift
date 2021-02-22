@@ -10,7 +10,7 @@ class DataManager {
     static let shared = DataManager()
     let names = ["Сергей", "Никита", "Вячеслав", "Алена","Никита"]
     let surnames = ["Корнев", "Жаринов", "Шангин", "Илясова", "Белов"]
-    let photos = ["kornev.jpg", "zharinov.png", "photo3", "Alena","belov"]
+    let photos = ["kornev.jpg", "zharinov.png", "photo2", "Alena","belov"]
     let cities = ["Рязань", "Братислава", "Тольятти", "Город Алёны","Москва"]
     let familyStatus = ["Женат", "Женат", "Женат", "Замужем", "Женат"]
     let ages = ["37", "55", "34", "28","29"]
