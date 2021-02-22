@@ -10,7 +10,7 @@ class DataManager {
     static let shared = DataManager()
     let names = ["Сергей", "Никита", "Вячеслав"]
     let surnames = ["Корнев", "Жаринов", "Шангин"]
-    let photos = ["photo1", "photo2", "photo3"]
+    let photos = ["photo1", "zharinov.png", "photo3"]
     let cities = ["Рязань", "Братислава", "Тольятти"]
     let familyStatus = ["Женат", "Женат", "Женат"]
     let ages = ["37", "55", "34"]
@@ -36,7 +36,7 @@ class DataManager {
     ]
     let phones = [
         "+7 (920) 636-33-22",
-        "421 904 746337",
+        "+421 904 746337",
         "+8 (927) 213-44-34"
     ]
     
