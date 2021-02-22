@@ -9,6 +9,7 @@ import UIKit
 
 class InfoViewController: UIViewController {
 
+    //MARK: - IB Outlets
     @IBOutlet var PlaceLabel: UILabel!
     @IBOutlet var statusLabel: UILabel!
     @IBOutlet var ageLabel: UILabel!
@@ -17,7 +18,7 @@ class InfoViewController: UIViewController {
     @IBOutlet var malLabel: UILabel!
     @IBOutlet var phoneLabel: UILabel!
     
-    
+    // MARK: - ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
 
