@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47EF78B025E436E10001473C /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 47EF78AF25E436E00001473C /* photo2.png */; };
 		5290FC9225E295E000C6FA38 /* ListUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290FC9125E295E000C6FA38 /* ListUserTableViewController.swift */; };
 		5290FC9525E2962000C6FA38 /* ListUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290FC9425E2962000C6FA38 /* ListUserCell.swift */; };
 		5342AF5825E2877A00F67E2C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5342AF5725E2877A00F67E2C /* DataManager.swift */; };
@@ -24,7 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		47EF78AF25E436E00001473C /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo2.png; path = ../../../../../../Documents/photo2.png; sourceTree = "<group>"; };
 		5290FC9125E295E000C6FA38 /* ListUserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUserTableViewController.swift; sourceTree = "<group>"; };
 		5290FC9425E2962000C6FA38 /* ListUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUserCell.swift; sourceTree = "<group>"; };
 		5342AF5725E2877A00F67E2C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
@@ -141,7 +139,6 @@
 		7C3BF4FD25E04D090059220A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				47EF78AF25E436E00001473C /* photo2.png */,
 				7C3BF4EC25E04BFC0059220A /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -205,7 +202,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C3BF4F025E04BFC0059220A /* LaunchScreen.storyboard in Resources */,
-				47EF78B025E436E10001473C /* photo2.png in Resources */,
 				7C3BF4ED25E04BFC0059220A /* Assets.xcassets in Resources */,
 				7C3BF4EB25E04BFA0059220A /* Main.storyboard in Resources */,
 			);
