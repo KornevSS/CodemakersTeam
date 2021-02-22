@@ -49,7 +49,7 @@ class ListUserTableViewController: UITableViewController {
                 } else if let hobbyVC = viewController as? HobbyViewController {
                     hobbyVC.person = persons[indexPath.row]
                 } else if let infoVC = viewController as? InfoViewController {
-                  //  infoVC.person = persons[indexPath.row]
+                    infoVC.person = persons[indexPath.row]
                 }                
             }
         }
