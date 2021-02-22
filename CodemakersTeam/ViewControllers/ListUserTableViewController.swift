@@ -30,7 +30,7 @@ class ListUserTableViewController: UITableViewController {
         let person = persons[indexPath.row]
         
         cell.userNameLabel.text = "\(person.name) \(person.surname)"
-        cell.iconImageView.image = UIImage(systemName: "person.crop.square.fill")
+        cell.iconImageView.image = UIImage(named: person.photo)
         
         return cell
     }

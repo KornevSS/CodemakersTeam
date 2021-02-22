@@ -25,7 +25,7 @@ class ListUserCell: UITableViewCell {
         iconImageView.contentMode = .scaleAspectFill
         iconImageView.layer.masksToBounds = true
         iconImageView.layer.borderWidth = 1
-        iconImageView.layer.borderColor = UIColor.systemGray.cgColor
+        iconImageView.layer.borderColor = UIColor.black.cgColor
     }
     
     @objc func viewimage(sender: UIGestureRecognizer){
