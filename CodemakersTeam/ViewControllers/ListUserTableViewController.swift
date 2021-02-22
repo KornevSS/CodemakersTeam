@@ -9,14 +9,9 @@ import UIKit
 
 class ListUserTableViewController: UITableViewController {
     
-
+    // MARK: - Public properties
     var persons = Person.getListOfTeam()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        
-    }
     
     // MARK: - Table view data source
     
