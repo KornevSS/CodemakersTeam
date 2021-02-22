@@ -8,35 +8,35 @@
 class DataManager {
     
     static let shared = DataManager()
-    let names = ["Сергей", "Имя2", "Вячеслав"]
-    let surnames = ["Корнев", "Фамилия2", "Шангин"]
+    let names = ["Сергей", "Никита", "Вячеслав"]
+    let surnames = ["Корнев", "Жаринов", "Шангин"]
     let photos = ["photo1", "photo2", "photo3"]
-    let cities = ["Рязань", "city2", "Тольятти"]
-    let familyStatus = ["Женат", "status2", "Женат"]
-    let ages = ["37", "age2", "34"]
+    let cities = ["Рязань", "Братислава", "Тольятти"]
+    let familyStatus = ["Женат", "Женат", "Женат"]
+    let ages = ["37", "55", "34"]
     let hobbies = [
         "Увлекаюсь ездой не велосипеде, люблю отдых на природе, вкусно поесть, хорошую музыку",
-        "hobby2",
+        "Увлекаюсь альпинизмом, дайвингом и горными лыжами",
         "Рыбалка, туризм"
     ]
     let jobs = [
         "Менеджер по продажам с/х техники",
-        "job2",
+        "IBM",
         "1с разработчик"
     ]
     let jobPositions = [
         "ТЦ 'Агрит', дилер КЗ 'Ростсельмаш'",
-        "position2",
+        "Менеджер по продажам",
         "Начальник отдела АСУ"
     ]
     let emails = [
         "post.kornev@gmail.com",
-        "mail2",
+        "nikita.zharinov@gmail.com",
         "slava-poison@yandex.ru"
     ]
     let phones = [
         "+7 (920) 636-33-22",
-        "phone2",
+        "421 904 746337",
         "+8 (927) 213-44-34"
     ]
     
