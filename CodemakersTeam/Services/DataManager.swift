@@ -6,17 +6,39 @@
 //
 
 class DataManager {
+    
     static let shared = DataManager()
-    let names = ["Имя1", "Имя2", "Вячеслав"]
-    let surnames = ["Фамилия1", "Фамилия2", "Шангин"]
+    let names = ["Сергей", "Имя2", "Вячеслав"]
+    let surnames = ["Корнев", "Фамилия2", "Шангин"]
     let photos = ["photo1", "photo2", "photo3"]
-    let cities = ["city1", "city2", "Тольятти"]
-    let familyStatus = ["status1", "status2", "Женат"]
-    let ages = ["age1", "age2", "34"]
-    let hobbies = ["hobby1", "hobby2", "Рыбалка, туризм"]
-    let jobs = ["job1", "job2", "1с разработчик"]
-    let jobPositions = ["position1", "position2", "Начальник отдела АСУ"]
-    let emails = ["mail1", "mail2", "slava-poison@yandex.ru"]
-    let phones = ["phone1", "phone2", "89272134434"]
+    let cities = ["Рязань", "city2", "Тольятти"]
+    let familyStatus = ["Женат", "status2", "Женат"]
+    let ages = ["37", "age2", "34"]
+    let hobbies = [
+        "Увлекаюсь ездой не велосипеде, люблю отдых на природе, вкусно поесть, хорошую музыку",
+        "hobby2",
+        "Рыбалка, туризм"
+    ]
+    let jobs = [
+        "Менеджер по продажам с/х техники",
+        "job2",
+        "1с разработчик"
+    ]
+    let jobPositions = [
+        "ТЦ 'Агрит', дилер КЗ 'Ростсельмаш'",
+        "position2",
+        "Начальник отдела АСУ"
+    ]
+    let emails = [
+        "post.kornev@gmail.com",
+        "mail2",
+        "slava-poison@yandex.ru"
+    ]
+    let phones = [
+        "+7 (920) 636-33-22",
+        "phone2",
+        "+8 (927) 213-44-34"
+    ]
+    
     private init() {}
 }
